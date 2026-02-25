@@ -1,7 +1,7 @@
 import React from "react";
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { Typewriter } from "react-simple-typewriter";
-import ProfileImg from "../../public/Profile.png";
+import ProfileImg from "../assets/Profile.png";
 import NitishCV from "../../public/Nitish_CV.pdf";
 
 const Hero = () => {
@@ -99,7 +99,7 @@ const Hero = () => {
           <div className="absolute w-80 h-80 bg-gradient-to-br from-orange-500 to-amber-500 rounded-full blur-3xl opacity-30 animate-pulse"></div>
 
           <img
-            src="/public/profile.png"
+            src={ProfileImg}
             alt="Nitish"
             className="relative w-72 h-72 md:w-96 md:h-96 object-cover rounded-full border-4 border-orange-500 shadow-2xl hover:scale-105 transition duration-500"
           />

@@ -1,7 +1,7 @@
 import React from "react";
-import InterviewAI from "../../public/projects/interview-ai.png"
-import quicknote from "../../public/projects/quicknote.png"
-import countries from "../../public/projects/countries.png"
+import InterviewAI from "../assets/interview-ai.png"
+import quicknote from "../assets/quicknote.png"
+import countries from "../assets/countries.png"
 
 const Projects = () => {
   const projectData = [
@@ -9,7 +9,7 @@ const Projects = () => {
       title: "QuickNote App",
       description:
         "A MERN stack note-taking application with authentication and CRUD functionality.",
-      image: "/public/Projects/quicknote.png",
+      image: quicknote,
       live: "https://quicknote-frontend-686w.onrender.com",
       github: "https://github.com/Nitish2909/QuickNote",
     },
@@ -17,7 +17,7 @@ const Projects = () => {
       title: "Interview Prep AI",
       description:
         "AI-powered interview preparation platform built using React, Node.js, Express.js MongoDB And OpenAI.",
-      image: "/public/Projects/interview-ai.png",
+      image: InterviewAI,
       live: "https://interview-prep-ai-frontend-elw6.onrender.com",
       github: "https://github.com/Nitish2909/Interview-Prep-AI-",
     },
@@ -25,7 +25,7 @@ const Projects = () => {
       title: "Countries ",
       description:
         "A web app that displays detailed information about countries ",
-      image: "/public/Projects/countries.png",
+      image: countries,
       live: "https://restcountriesss.netlify.app/",
       github: "https://github.com/Nitish2909/Countries",
     },

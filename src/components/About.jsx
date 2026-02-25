@@ -1,5 +1,5 @@
 import React from "react";
-import ProfileImg from "../../public/Profile.png"
+import ProfileImg from "../assets/Profile.png";
 
 const About = () => {
   return (
@@ -29,7 +29,7 @@ const About = () => {
             <div className="relative group">
               <div className="absolute inset-0 bg-gradient-to-r from-orange-500 to-amber-500 blur-2xl opacity-30 rounded-3xl group-hover:opacity-50 transition"></div>
               <img
-                src="/public/profile.png"
+                src={ProfileImg}
                 alt="Nitish"
                 className="relative w-80 h-80 object-cover rounded-3xl border-4 border-orange-500 shadow-xl group-hover:scale-105 transition duration-500"
               />
