@@ -1,5 +1,7 @@
 import React from "react";
 import InterviewAI from "../../public/projects/interview-ai.png"
+import quicknote from "../../public/projects/quicknote.png"
+import countries from "../../public/projects/countries.png"
 
 const Projects = () => {
   const projectData = [
@@ -7,7 +9,7 @@ const Projects = () => {
       title: "QuickNote App",
       description:
         "A MERN stack note-taking application with authentication and CRUD functionality.",
-      image: "https://via.placeholder.com/400x250",
+      image: "/public/Projects/quicknote.png",
       live: "https://quicknote-frontend-686w.onrender.com",
       github: "https://github.com/Nitish2909/QuickNote",
     },
@@ -23,7 +25,7 @@ const Projects = () => {
       title: "Countries ",
       description:
         "A web app that displays detailed information about countries ",
-      image: "https://via.placeholder.com/400x250",
+      image: "/public/Projects/countries.png",
       live: "https://restcountriesss.netlify.app/",
       github: "https://github.com/Nitish2909/Countries",
     },

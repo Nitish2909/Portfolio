@@ -1,7 +1,8 @@
 import React from "react";
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { Typewriter } from "react-simple-typewriter";
-import ProfileImg from "../../public/Profile.png"
+import ProfileImg from "../../public/Profile.png";
+import NitishCV from "../../public/Nitish_CV.pdf";
 
 const Hero = () => {
   return (
@@ -14,7 +15,6 @@ const Hero = () => {
       <div className="absolute bottom-10 right-10 w-96 h-96 bg-amber-500 rounded-full blur-3xl opacity-20"></div>
 
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center relative z-10">
-        
         {/* Left Content */}
         <div className="space-y-6">
           <p className="text-orange-500 font-semibold uppercase tracking-widest">
@@ -36,6 +36,8 @@ const Hero = () => {
                   "Full Stack Developer",
                   "MERN Developer",
                   "JavaScript Enthusiast",
+                  "AI And ML Enthusiast ",
+                  "Data Analytics",
                   "Freelancer",
                 ]}
                 loop={0}
@@ -63,12 +65,19 @@ const Hero = () => {
             </a>
 
             <a
-              href="/Nitish-CV.pdf"
-              download
+              href={NitishCV}
+              download="Nitish_CV.pdf"
               className="px-6 py-3 rounded-full border border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white transition duration-300"
             >
               Download CV
             </a>
+            {/* <a
+              href="/public/Nitish Kumar-resume.pdf"
+              download
+              className="px-6 py-3 rounded-full border border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white transition duration-300"
+            >
+              Download CV
+            </a> */}
           </div>
 
           {/* Social Icons */}
@@ -106,142 +115,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
-
-
-
-// import React from "react";
-
-
-// const Hero = () => {
-//   return (
-//     <section
-//       id="home"
-//       className="min-h-screen flex items-center justify-center px-6"
-//     >
-//       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
-        
-//         {/* Left Content */}
-//         <div className="space-y-6">
-//           <h1 className="text-4xl md:text-6xl font-bold leading-tight">
-//             Hi, I'm{" "}
-//             <span className="bg-gradient-to-r from-orange-500 to-amber-500 bg-clip-text text-transparent">
-//               Nitish Kumar
-//             </span>
-//           </h1>
-
-//           <h2 className="text-2xl md:text-3xl font-semibold text-gray-400">
-//             Full Stack Developer
-//           </h2>
-
-//           <p className="text-gray-400 max-w-lg">
-//             I build modern, responsive and scalable web applications using
-//             React, Node.js, Express, Tailwind Css and MongoDB.
-//           </p>
-
-//           {/* Buttons */}
-//           <div className="flex flex-wrap gap-4">
-            
-//             <a
-//               href="#project"
-//               className="px-6 py-3 rounded-full bg-gradient-to-r from-orange-500 to-amber-500 text-white font-medium hover:scale-105 transition duration-300"
-//             >
-//               View Projects
-//             </a>
-
-//             <a
-//               href="#contact"
-//               className="px-6 py-3 rounded-full border border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white transition duration-300"
-//             >
-//               Contact Me
-//             </a>
-
-//             {/* Download CV Button */}
-//             <a
-//               href="/Nitish Kumar-Resume.pdf"
-//               download
-//               className="px-6 py-3 rounded-full bg-white text-black font-medium hover:bg-gray-200 transition duration-300"
-//             >
-//               Download CV
-//             </a>
-
-//           </div>
-//         </div>
-
-//         {/* Right Content */}
-//         <div className="flex justify-center relative">
-//           <div className="w-72 h-72 md:w-96 md:h-96 bg-gradient-to-br from-orange-500 to-amber-500 rounded-full blur-3xl opacity-30 absolute"></div>
-
-//           <div className="relative w-60 h-60 md:w-80 md:h-80 bg-gray-800 rounded-full flex items-center justify-center shadow-2xl">
-//             <span className="text-6xl">👨‍💻</span>
-//           </div>
-//         </div>
-//       </div>
-//     </section>
-//   );
-// };
-
-// export default Hero;
-
-
-// // import React from "react";
-
-// // const Hero = ({ darkMode }) => {
-// //   return (
-// //     <section
-// //       id="home"
-// //       className="min-h-screen flex items-center justify-center px-6"
-// //     >
-// //       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
-        
-// //         {/* Left Content */}
-// //         <div className="space-y-6">
-// //           <h1 className="text-4xl md:text-6xl font-bold leading-tight">
-// //             Hi, I'm{" "}
-// //             <span className="bg-gradient-to-r from-orange-500 to-amber-500 bg-clip-text text-transparent">
-// //               Nitish
-// //             </span>
-// //           </h1>
-
-// //           <h2 className="text-2xl md:text-3xl font-semibold text-gray-400">
-// //             Full Stack Developer
-// //           </h2>
-
-// //           <p className="text-gray-400 max-w-lg">
-// //             I build modern, responsive and scalable web applications using
-// //             React, Node.js and MongoDB. Passionate about clean UI and powerful
-// //             backend systems.
-// //           </p>
-
-// //           {/* Buttons */}
-// //           <div className="flex gap-4">
-// //             <a
-// //               href="#project"
-// //               className="px-6 py-3 rounded-full bg-gradient-to-r from-orange-500 to-amber-500 text-white font-medium hover:scale-105 transition duration-300"
-// //             >
-// //               View Projects
-// //             </a>
-
-// //             <a
-// //               href="#contact"
-// //               className="px-6 py-3 rounded-full border border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white transition duration-300"
-// //             >
-// //               Contact Me
-// //             </a>
-// //           </div>
-// //         </div>
-
-// //         {/* Right Content */}
-// //         <div className="flex justify-center">
-// //           <div className="w-72 h-72 md:w-96 md:h-96 bg-gradient-to-br from-orange-500 to-amber-500 rounded-full blur-3xl opacity-30 absolute"></div>
-
-// //           <div className="relative w-60 h-60 md:w-80 md:h-80 bg-gray-800 rounded-full flex items-center justify-center shadow-2xl">
-// //             <span className="text-6xl">👨‍💻</span>
-// //           </div>
-// //         </div>
-// //       </div>
-// //     </section>
-// //   );
-// // };
-
-// // export default Hero;
