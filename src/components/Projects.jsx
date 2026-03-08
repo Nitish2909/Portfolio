@@ -2,9 +2,18 @@ import React from "react";
 import InterviewAI from "../assets/interview-ai.png"
 import quicknote from "../assets/quicknote.png"
 import countries from "../assets/countries.png"
+import SkillScanAI from "../assets/skillscanAI.png"
 
 const Projects = () => {
   const projectData = [
+      {
+      title: "SkillScan AI",
+      description:
+        "A Full Stack Web Application.It Analyze your job requirements and your Resume to generate a interview crack master plan",
+      image: SkillScanAI,
+      live: "#",
+      github: "https://github.com/Nitish2909/SkillScan-AI",
+    },
     {
       title: "QuickNote App",
       description:
