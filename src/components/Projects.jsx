@@ -43,7 +43,7 @@ const Projects = () => {
       description:
         "Personal responsive portfolio website built with React and Tailwind CSS.",
       image: "https://via.placeholder.com/400x250",
-      live: "",
+      live: "https://portfolio-wq6l.onrender.com",
       github: "https://github.com/Nitish2909/Portfolio",
     },
       {

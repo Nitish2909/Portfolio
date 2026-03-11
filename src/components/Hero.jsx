@@ -52,7 +52,9 @@ const Hero = () => {
 
           <p className="text-gray-400 max-w-lg">
             I design and develop scalable web applications using modern
-            technologies like React, Node.js and MongoDB.
+            technologies like React, Node.js, and MongoDB, creating full-stack
+            solutions with clean code, responsive UI, and optimized backend
+            performance.
           </p>
 
           {/* Buttons */}
@@ -82,7 +84,10 @@ const Hero = () => {
 
           {/* Social Icons */}
           <div className="flex gap-6 pt-6 text-2xl text-gray-400">
-            <a href="https://github.com/Nitish2909" className="hover:text-orange-500 transition">
+            <a
+              href="https://github.com/Nitish2909"
+              className="hover:text-orange-500 transition"
+            >
               <FaGithub />
             </a>
             <a href="" className="hover:text-orange-500 transition">

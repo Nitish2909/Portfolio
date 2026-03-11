@@ -7,6 +7,8 @@ import {
   FaGithub,
   FaJava,
   FaPython,
+  FaHtml5,
+  FaCss3Alt
 } from "react-icons/fa";
 import {
   SiJavascript,
@@ -19,6 +21,8 @@ import {
 
 const skillCategories = {
   Frontend: [
+    { name: "HTML", icon: <FaHtml5 className="text-orange-500" /> },
+    { name: "CSS", icon: <FaCss3Alt className="text-blue-500" /> },
     { name: "JavaScript", icon: <SiJavascript className="text-yellow-400" /> },
     { name: "React", icon: <FaReact className="text-cyan-400" /> },
     { name: "Redux Toolkit", icon: <SiRedux className="text-purple-500" /> },
@@ -49,11 +53,11 @@ const Skills = () => {
   const [activeCategory, setActiveCategory] = useState("Frontend");
 
   return (
-    <section  
-    id="skills"
-    className="min-h-screen px-6 py-24 bg-gradient-to-br from-black via-gray-900 to-black text-white">
+    <section
+      id="skills"
+      className="min-h-screen px-6 py-24 bg-gradient-to-br from-black via-gray-900 to-black text-white"
+    >
       <div className="max-w-7xl mx-auto">
-
         {/* Title */}
         <h2 className="text-4xl md:text-6xl font-bold text-center mb-16">
           Technical{" "}
@@ -101,9 +105,7 @@ const Skills = () => {
                 className="bg-white/5 backdrop-blur-lg border border-white/10 rounded-2xl p-6 flex flex-col items-center justify-center shadow-xl cursor-pointer"
                 style={{ transformStyle: "preserve-3d" }}
               >
-                <div className="text-4xl mb-4">
-                  {skill.icon}
-                </div>
+                <div className="text-4xl mb-4">{skill.icon}</div>
                 <h3 className="text-sm font-medium text-center">
                   {skill.name}
                 </h3>
@@ -111,7 +113,6 @@ const Skills = () => {
             ))}
           </motion.div>
         </AnimatePresence>
-
       </div>
     </section>
   );
@@ -196,5 +197,3 @@ export default Skills;
 // };
 
 // export default Skills;
-
-

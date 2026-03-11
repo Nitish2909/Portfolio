@@ -43,9 +43,9 @@ const About = () => {
             </h3>
 
             <p className="text-gray-400 leading-relaxed">
-              I'm a passionate Full Stack Developer pursuing BCA.
+              I'm a passionate Full Stack Developer and MERN Stack Developer pursuing BCA.
               I build modern, responsive, and scalable web applications
-              using React, Node.js, MongoDB and Tailwind CSS.
+              using React, Node.js, Express.js, MongoDB and Tailwind CSS.
             </p>
 
             <p className="text-gray-400 leading-relaxed">
@@ -58,8 +58,9 @@ const About = () => {
 
               {[
                 { name: "React", width: "85%" },
-                { name: "Node.js", width: "75%" },
-                { name: "MongoDB", width: "70%" },
+                { name: "Node.js", width: "90%" },
+                { name: "Express.js", width: "90%" },
+                { name: "MongoDB", width: "80%" },
                 { name: "JavaScript", width: "90%" },
               ].map((skill, index) => (
                 <div key={index}>
