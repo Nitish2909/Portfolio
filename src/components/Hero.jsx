@@ -82,10 +82,10 @@ const Hero = () => {
 
           {/* Social Icons */}
           <div className="flex gap-6 pt-6 text-2xl text-gray-400">
-            <a href="#" className="hover:text-orange-500 transition">
+            <a href="https://github.com/Nitish2909" className="hover:text-orange-500 transition">
               <FaGithub />
             </a>
-            <a href="#" className="hover:text-orange-500 transition">
+            <a href="" className="hover:text-orange-500 transition">
               <FaLinkedin />
             </a>
             <a href="#" className="hover:text-orange-500 transition">

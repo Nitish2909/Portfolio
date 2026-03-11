@@ -2,7 +2,7 @@ import React from "react";
 import InterviewAI from "../assets/interview-ai.png"
 import quicknote from "../assets/quicknote.png"
 import countries from "../assets/countries.png"
-import SkillScanAI from "../assets/skillscanAI.png"
+import skillscan from "../assets/skillscan.png"
 
 const Projects = () => {
   const projectData = [
@@ -10,8 +10,8 @@ const Projects = () => {
       title: "SkillScan AI",
       description:
         "A Full Stack Web Application.It Analyze your job requirements and your Resume to generate a interview crack master plan",
-      image: SkillScanAI,
-      live: "#",
+      image: skillscan,
+      live: "https://skillscan-ai-website.onrender.com/",
       github: "https://github.com/Nitish2909/SkillScan-AI",
     },
     {
@@ -43,8 +43,16 @@ const Projects = () => {
       description:
         "Personal responsive portfolio website built with React and Tailwind CSS.",
       image: "https://via.placeholder.com/400x250",
-      live: "#",
-      github: "#",
+      live: "",
+      github: "https://github.com/Nitish2909/Portfolio",
+    },
+      {
+      title: "Quiz Website",
+      description:
+        "Simple Quiz website . This website is built with HTML, CSS, JavaScript ",
+      image: "https://via.placeholder.com/400x250",
+      live: "https://quizwebapppp.netlify.app/",
+      github: "https://github.com/Nitish2909/QuizApp",
     },
 
   ];

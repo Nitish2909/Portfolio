@@ -49,7 +49,9 @@ const Skills = () => {
   const [activeCategory, setActiveCategory] = useState("Frontend");
 
   return (
-    <section className="min-h-screen px-6 py-24 bg-gradient-to-br from-black via-gray-900 to-black text-white">
+    <section  
+    id="skills"
+    className="min-h-screen px-6 py-24 bg-gradient-to-br from-black via-gray-900 to-black text-white">
       <div className="max-w-7xl mx-auto">
 
         {/* Title */}
