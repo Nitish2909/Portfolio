@@ -53,13 +53,13 @@ const Footer = () => {
               Nitish Kumar
             </h2>
             <p className="text-gray-400 mt-4 text-sm">
-              MERN Stack Developer building scalable and modern web apps.
+              Full-Stack Developer building scalable and modern web apps.
             </p>
           </div>
 
           {/* Social */}
           <div className="flex items-center justify-center gap-6">
-            <a href="#" className="hover:text-orange-400 transition">
+            <a href="https://github.com/Nitish2909" className="hover:text-orange-400 transition">
               <FaGithub size={22} />
             </a>
             <a href="#" className="hover:text-orange-400 transition">

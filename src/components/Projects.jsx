@@ -14,6 +14,14 @@ const Projects = () => {
       live: "https://skillscan-ai-website.onrender.com/",
       github: "https://github.com/Nitish2909/SkillScan-AI",
     },
+      {
+      title: "LoanSetu",
+      description:
+        "A Full Stack Web Application.",
+      live: "https://loansetu.netlify.app/",
+      live: "admin-loansetu.netlify.app",
+      github: "https://github.com/Nitish2909/LoanSetu",
+    },
     {
       title: "QuickNote App",
       description:
