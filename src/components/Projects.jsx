@@ -7,6 +7,13 @@ import skillscan from "../assets/skillscan.png"
 const Projects = () => {
   const projectData = [
       {
+      title: "LoanSetu",
+      description:
+        "A Full Stack Web Application.",
+      live: "https://loansetu.netlify.app/",
+      github: "https://github.com/Nitish2909/LoanSetu",
+    },
+      {
       title: "SkillScan AI",
       description:
         "A Full Stack Web Application.It Analyze your job requirements and your Resume to generate a interview crack master plan",
@@ -14,12 +21,29 @@ const Projects = () => {
       live: "https://skillscan-ai-website.onrender.com/",
       github: "https://github.com/Nitish2909/SkillScan-AI",
     },
-      {
-      title: "LoanSetu",
+     {
+      title: "Interview Prep AI",
       description:
-        "A Full Stack Web Application.",
-      live: "https://loansetu.netlify.app/",
-      github: "https://github.com/Nitish2909/LoanSetu",
+        "AI-powered interview preparation platform built using React, Node.js, Express.js MongoDB And OpenAI.",
+      image: InterviewAI,
+      live: "https://interview-prep-ai-frontend-elw6.onrender.com",
+      github: "https://github.com/Nitish2909/Interview-Prep-AI-",
+    },
+    {
+      title: "Countries ",
+      description:
+        "A web app that displays detailed information about countries ",
+      image: countries,
+      live: "https://restcountriesss.netlify.app/",
+      github: "https://github.com/Nitish2909/Countries",
+    },
+     {
+      title: "Portfolio Website",
+      description:
+        "Personal responsive portfolio website built with React and Tailwind CSS.",
+      image: "https://via.placeholder.com/400x250",
+      live: "https://portfolio-wq6l.onrender.com",
+      github: "https://github.com/Nitish2909/Portfolio",
     },
     {
       title: "QuickNote App",
@@ -28,30 +52,6 @@ const Projects = () => {
       image: quicknote,
       live: "https://quicknote-frontend-686w.onrender.com",
       github: "https://github.com/Nitish2909/QuickNote",
-    },
-    {
-      title: "Interview Prep AI",
-      description:
-        "AI-powered interview preparation platform built using React, Node.js, Express.js MongoDB And OpenAI.",
-      image: InterviewAI,
-      live: "https://interview-prep-ai-frontend-elw6.onrender.com",
-      github: "https://github.com/Nitish2909/Interview-Prep-AI-",
-    },
-      {
-      title: "Countries ",
-      description:
-        "A web app that displays detailed information about countries ",
-      image: countries,
-      live: "https://restcountriesss.netlify.app/",
-      github: "https://github.com/Nitish2909/Countries",
-    },
-    {
-      title: "Portfolio Website",
-      description:
-        "Personal responsive portfolio website built with React and Tailwind CSS.",
-      image: "https://via.placeholder.com/400x250",
-      live: "https://portfolio-wq6l.onrender.com",
-      github: "https://github.com/Nitish2909/Portfolio",
     },
       {
       title: "Quiz Website",
