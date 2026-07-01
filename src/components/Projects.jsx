@@ -19,7 +19,6 @@ const Projects = () => {
       description:
         "A Full Stack Web Application.",
       live: "https://loansetu.netlify.app/",
-      live: "admin-loansetu.netlify.app",
       github: "https://github.com/Nitish2909/LoanSetu",
     },
     {
