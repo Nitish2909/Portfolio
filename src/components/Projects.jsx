@@ -4,11 +4,12 @@ import quicknote from "../assets/quicknote.png";
 import countries from "../assets/countries.png";
 import skillscan from "../assets/skillscan.png";
 import Travel from "../assets/Travel-web.png"
+import LoanSetu from "../assets/LoanSetupng"
 
 const Projects = () => {
   const projectData = [
     {
-      title: "Treno",
+      title: "Treno Travel",
       description: "A Full Stack Tour And Travel Packages Booking Application. By Using This application you can book Your Travel Packages Easily",
       image: Travel,
       live: "https://tripwithtreno.com",
@@ -16,7 +17,8 @@ const Projects = () => {
     },
     {
       title: "LoanSetu",
-      description: "A Full Stack Web Application.",
+      description: "A Full Stack Web Application.By Using This Application You Can Apply can Easily  Apply for Loan from Home Follow some Quick Steps and Submit some Documents for Verification. ",
+      image: LoanSetu,
       live: "https://loansetu.netlify.app/",
       github: "https://github.com/Nitish2909/LoanSetu",
     },
@@ -59,14 +61,6 @@ const Projects = () => {
       image: quicknote,
       live: "https://quicknote-frontend-686w.onrender.com",
       github: "https://github.com/Nitish2909/QuickNote",
-    },
-    {
-      title: "Quiz Website",
-      description:
-        "Simple Quiz website . This website is built with HTML, CSS, JavaScript ",
-      image: "https://via.placeholder.com/400x250",
-      live: "https://quizwebapppp.netlify.app/",
-      github: "https://github.com/Nitish2909/QuizApp",
     },
   ];
 
