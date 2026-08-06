@@ -4,7 +4,7 @@ import quicknote from "../assets/quicknote.png";
 import countries from "../assets/countries.png";
 import skillscan from "../assets/skillscan.png";
 import Travel from "../assets/Travel-web.png"
-import LoanSetu from "../assets/LoanSetupng"
+import LoanSetu from "../assets/LoanSetu.png"
 
 const Projects = () => {
   const projectData = [
