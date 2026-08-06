@@ -39,6 +39,7 @@ const Hero = () => {
                   "AI And ML Enthusiast ",
                   "Data Analytics",
                   "Freelancer",
+                  "Android and IOS App Developer"
                 ]}
                 loop={0}
                 cursor
