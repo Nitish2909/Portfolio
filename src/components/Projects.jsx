@@ -54,14 +54,6 @@ const Projects = () => {
       live: "https://portfolio-wq6l.onrender.com",
       github: "https://github.com/Nitish2909/Portfolio",
     },
-    {
-      title: "QuickNote App",
-      description:
-        "A MERN stack note-taking application with authentication and CRUD functionality.",
-      image: quicknote,
-      live: "https://quicknote-frontend-686w.onrender.com",
-      github: "https://github.com/Nitish2909/QuickNote",
-    },
   ];
 
   return (
