@@ -1,19 +1,26 @@
 import React from "react";
-import InterviewAI from "../assets/interview-ai.png"
-import quicknote from "../assets/quicknote.png"
-import countries from "../assets/countries.png"
-import skillscan from "../assets/skillscan.png"
+import InterviewAI from "../assets/interview-ai.png";
+import quicknote from "../assets/quicknote.png";
+import countries from "../assets/countries.png";
+import skillscan from "../assets/skillscan.png";
+import Travel from "../assets/Travel-web.png"
 
 const Projects = () => {
   const projectData = [
-      {
+    {
+      title: "Treno",
+      description: "A Full Stack Tour And Travel Packages Booking Application. By Using This application you can book Your Travel Packages Easily",
+      image: Travel,
+      live: "https://tripwithtreno.com",
+      github: "https://github.com/Nitish2909/Treno",
+    },
+    {
       title: "LoanSetu",
-      description:
-        "A Full Stack Web Application.",
+      description: "A Full Stack Web Application.",
       live: "https://loansetu.netlify.app/",
       github: "https://github.com/Nitish2909/LoanSetu",
     },
-      {
+    {
       title: "SkillScan AI",
       description:
         "A Full Stack Web Application.It Analyze your job requirements and your Resume to generate a interview crack master plan",
@@ -21,7 +28,7 @@ const Projects = () => {
       live: "https://skillscan-ai-website.onrender.com/",
       github: "https://github.com/Nitish2909/SkillScan-AI",
     },
-     {
+    {
       title: "Interview Prep AI",
       description:
         "AI-powered interview preparation platform built using React, Node.js, Express.js MongoDB And OpenAI.",
@@ -37,7 +44,7 @@ const Projects = () => {
       live: "https://restcountriesss.netlify.app/",
       github: "https://github.com/Nitish2909/Countries",
     },
-     {
+    {
       title: "Portfolio Website",
       description:
         "Personal responsive portfolio website built with React and Tailwind CSS.",
@@ -53,7 +60,7 @@ const Projects = () => {
       live: "https://quicknote-frontend-686w.onrender.com",
       github: "https://github.com/Nitish2909/QuickNote",
     },
-      {
+    {
       title: "Quiz Website",
       description:
         "Simple Quiz website . This website is built with HTML, CSS, JavaScript ",
@@ -61,26 +68,22 @@ const Projects = () => {
       live: "https://quizwebapppp.netlify.app/",
       github: "https://github.com/Nitish2909/QuizApp",
     },
-
   ];
 
   return (
     <section id="project" className="min-h-screen px-6 py-20">
       <div className="max-w-6xl mx-auto">
-        
         {/* Section Title */}
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-12">
           My <span className="text-orange-500">Projects</span>
         </h2>
 
         <div className="grid md:grid-cols-3 gap-8">
-          
           {projectData.map((project, index) => (
             <div
               key={index}
               className="bg-gray-800 rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition duration-300"
             >
-              
               {/* Image */}
               <img
                 src={project.image}
@@ -94,9 +97,7 @@ const Projects = () => {
                   {project.title}
                 </h3>
 
-                <p className="text-gray-400 text-sm">
-                  {project.description}
-                </p>
+                <p className="text-gray-400 text-sm">{project.description}</p>
 
                 {/* Buttons */}
                 <div className="flex gap-3 pt-2">
@@ -121,7 +122,6 @@ const Projects = () => {
               </div>
             </div>
           ))}
-
         </div>
       </div>
     </section>
