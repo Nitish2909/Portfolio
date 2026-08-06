@@ -51,8 +51,8 @@ const Hero = () => {
           </h2>
 
           <p className="text-gray-400 max-w-lg">
-            I design and develop scalable web applications using modern
-            technologies like React, Node.js, and MongoDB, creating full-stack
+            I Design and Develop scalable web applications and Mobile Apps for both like Androide and IOS using modern
+            technologies like React, React Native, Node.js, Express.js,MySQL and MongoDB, creating full-stack
             solutions with clean code, responsive UI, and optimized backend
             performance.
           </p>
@@ -90,7 +90,7 @@ const Hero = () => {
             >
               <FaGithub />
             </a>
-            <a href="" className="hover:text-orange-500 transition">
+            <a href="#" className="hover:text-orange-500 transition">
               <FaLinkedin />
             </a>
             <a href="#" className="hover:text-orange-500 transition">
