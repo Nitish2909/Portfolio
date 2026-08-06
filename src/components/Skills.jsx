@@ -8,7 +8,9 @@ import {
   FaJava,
   FaPython,
   FaHtml5,
-  FaCss3Alt
+  FaCss3Alt,
+  FaDocker,
+  FaJs
 } from "react-icons/fa";
 import {
   SiJavascript,
@@ -37,10 +39,12 @@ const skillCategories = {
   Programming: [
     { name: "Java", icon: <FaJava className="text-red-500" /> },
     { name: "Python", icon: <FaPython className="text-blue-400" /> },
+     { name: "JavaScript", icon: <FaJs className="text-blue-400" /> },
   ],
   Tools: [
     { name: "Git", icon: <FaGitAlt className="text-orange-500" /> },
     { name: "GitHub", icon: <FaGithub className="text-white" /> },
+     { name: "Docker", icon: <FaDocker className="text-white" /> },
   ],
   "CS Fundamentals": [
     { name: "DBMS", icon: "💾" },
