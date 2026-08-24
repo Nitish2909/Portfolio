@@ -5,6 +5,7 @@ import countries from "../assets/countries.png";
 import skillscan from "../assets/skillscan.png";
 import Travel from "../assets/Travel-web.png"
 import LoanSetu from "../assets/LoanSetu.png"
+import Cavner from "../assets/Cavner.png"
 
 const Projects = () => {
   const projectData = [
@@ -14,6 +15,13 @@ const Projects = () => {
       image: Travel,
       live: "https://tripwithtreno.com",
       github: "https://github.com/Nitish2909/Treno",
+    },
+     {
+      title: "A Loan & FinTech Application",
+      description: "A Full Stack FinTech Web Application. ",
+      image: Cavner,
+      live: "https://cavner.co.in",
+      github: "https://github.com/Nitish2909/CavnerFintech",
     },
     {
       title: "LoanSetu",
